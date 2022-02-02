@@ -1,6 +1,145 @@
+/* generics */
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* utilities */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.float{
+    float: left;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+
+/* content */
+
+header {
+    background-color: rgba(49,97,224,255);
+}
+
+.top-header {
+    height: 80px;
+    line-height: 80px;
+}
+
+.top-header img {
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.top-header nav{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+}
+
+.top-header li{
+    display: inline-block;
+
+}
+
+.top-header .btn{
+    vertical-align: middle;
+} 
+
+.top-header li a{
+    color: white;
+    margin: 0px 30px;
+    text-decoration: none;
+
+}
+
+.top-header li a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    margin: 25px 0px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.btn-large{
+    height: 55px;
+    width: 270px;
+    line-height: 55px;
+    font-size: 1.2rem;
+}
+
+.dark-btn {
+    background-color: black;
+    color: white;
+}
+
+.bottom-header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 500px;
+}
+
+.bottom-header h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.bottom-header p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* debug */
