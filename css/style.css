@@ -142,4 +142,29 @@ header {
     line-height: 30px;
 }
 
+.first{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col-left{
+    width: 400px;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.col-right{
+    width: 400px;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.col-right h1{
+    font-size: 60px;
+    margin: 20 auto;
+}
+
+.float img{
+    margin-right: 100px;
+}
 /* debug */
